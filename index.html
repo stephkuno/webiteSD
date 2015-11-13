@@ -16,6 +16,8 @@
 
     <!-- Custom CSS -->
     <link href="css/half-slider.css" rel="stylesheet">
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,7 +26,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sniglet:400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,300,700,800,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,700,600,300,500' rel='stylesheet' type='text/css'>
 
 </head>
@@ -32,7 +35,9 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
         <div class="container">
+        <div class="pull-left"><a href="index.html"><img class="img-responsive" src="images/logo4.png" alt=""></a></div>
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -41,11 +46,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo4.png" alt=""></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul style="padding-top: 20px" class="nav navbar-nav">
+            	<div class="pull-right">
+                <ul style="padding-top: 0px" class="nav navbar-nav">
                     <li>
                         <a href="ourstory.html">OUR STORY</a>
                     </li>
@@ -64,101 +69,79 @@
                         <a href="contact_us.html">LOCATIONS</a>
                     </li>
                 </ul>
+                </div>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
 
-
     <!-- Carousel
 ================================================== -->
-<div class="overlay">Welcome to Silver Dipper</div>
+<div class="overlay1"><strong>IF YOU LOVE ICE CREAM<br>YOU'RE AT THE RIGHT PLACE</strong></div>
+<div class="break">
 <div id="myCarousel" class="carousel slide">
-
   <div class="carousel-inner">
     <div class="item active">
-      <img src="images/homepage.jpg" class="img-responsive">
-      <div class="container">
-        <div class="carousel-caption">
-          </div>
-      </div>
+      <img class="img-responsive" src="images/homepage.jpg" alt="">
     </div>
   </div>
 </div>
+</div>
 <!-- /.carousel -->
-            
+
 
     <!-- Page Content -->
     <div class="container">
+	<br>
+        <!-- Projects Row -->
+        	<div class="row">
+            <div class="col-md-4 portfolio-item">
+                    <img class="img-responsive" src="images/middle1.jpg" alt="">
+                <div class="text-center">
+                <h3>Chocolate Shoppe</h3>
+                <p>Proudly serving<br> Chocolate Shoppe Ice Cream!</p>
+                <button type="button" class="btn btn-primary" onClick="location.href = 'http://chocolateshoppeicecream.com';">See More</button>
+            	</div>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                    <img class="img-responsive" src="images/middle2.jpg" alt="">
+                <div class="text-center">
+                <h3>Mini Monster</h3>
+                <p>Can't decide on one flavor?<br>Get 'em all!</p>
+                <button type="button" class="btn btn-primary" onClick="location.href = 'monster.html';">See More</button>
 
-        <br>
-        <br>
-        <div class="row">
-        <div class="col-lg-12">
-        <div class="text-center"><h1> Sneak Peak </h1></div>
-        <hr>
-        
-        <div class="col-sm-4">            
-            <div class="thumbnail">
-                <div class="caption">
-                    <br>
-                    <br>
-                    <br>
-                    <p>Come visit us at both locations in West Lafayette, Indiana!</p>
-                    <p><button type="button" class="btn-sm btn-primary" onClick="location.href = 'contact_us.html';">Find Us</button></p>
-                </div>
-                <img src="images/outside.jpg" alt="">
+            	</div>
             </div>
-            <div class="text-center"><h3>Come on By</h3></div>
-        </div>
-        
-        <div class="col-sm-4">            
-            <div class="thumbnail">
-                <div class="caption">
-                    <br>
-                    <br>
-                    <br>
-                    <p>Find more out here about how you can order your cake today!</p>
-                    <p><button type="button" class="btn-sm btn-primary" onClick="location.href = 'cakes.html'";>Order Now</button></p>
-                </div>
-                <img src="images/cake.jpg" alt="">
-            </div>
-            <div class="text-center"><h3>Order a Cake</h3></div>
-        	</div>
-        
-        <div class="col-sm-4">            
-            <div class="thumbnail">
-                <div class="caption">
-                    <br>
-                    <br>
-                    <br>
-                    <p>So many flavors, so little time...</p>
-                    <p><button type="button" class="btn-sm btn-primary" onClick="location.href = 'flavors.html';">Pick your Flavor</button></p>
-                </div>
-                <img src="images/3ConeHome.jpg" alt="">
-            </div>
-            <div class="text-center"><h3>Satisfy Your Craving</h3></div>
-        </div>
-</div>
-</div>
-        <hr>
+            <div class="col-md-4 portfolio-item">
+                    <img class="img-responsive" src="images/middle3.png" alt="">
+                <div class="text-center">
+                <h3>Seasonal Flavors</h3>
+                <p>Come in and enjoy one of our <br>seasonal flavors or your own personal favorite!</p>
+                <button type="button" class="btn btn-primary" onClick="location.href = 'flavors.html';">See More</button>
 
-        <!-- Footer -->
-        <footer>
+            	</div>
+             </div>
+          </div>
+        <!-- /.row -->
+   
+
+        
+</div> <!-- Container -->
+<br>
+<br>
+
+<!-- Footer -->
+        	<div class="footer-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                <div class="col-sm-10">
-                    <small>Copyright &copy; Silver Dipper 2014. All Rights Reserved.</small>
-                </div>
+                <div class="pull-right"><small>Copyright &copy; Silver Dipper 2015. All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small><div class="breakfoot"><br></div>
                 <a href="#"><img src="images/FB.png" alt=""></a> &nbsp;<a href="#"><img src="images/twit.png" alt=""></a> &nbsp;<a href="#"><img src="images/insta.png" alt=""></a> &nbsp;
                 </div>
             </div>
+          </div>
+        </div>
             <!-- /.row -->
-        </footer>
-
-    </div>
-    <!-- /.container -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

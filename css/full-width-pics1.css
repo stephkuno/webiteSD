@@ -1,0 +1,149 @@
+/*!
+ * Start Bootstrap - Full Width Pics HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+}
+
+.container-1 {
+	background-color: #0ea2da;
+	padding-right: 50px;
+    padding-left: 425px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.breakfoot {
+	display: none;
+}
+
+
+@media (max-width: 767px) {
+.container-1 {
+	background-color: #0ea2da;
+	padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.breakfoot {
+	display:block;
+}
+
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background: url(../images/story1.jpg) no-repeat center center scroll;
+    padding: 100px 0;
+}
+
+.image-bg-fixed-height {
+	background: url(../images/story2.jpg) no-repeat center center scroll;
+    height: 450px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+section {
+    padding: 75px 0;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+/* Splash page */
+.splash-page .header-wrap {
+ position: relative;
+ background: none;
+}
+.splash-page .header-wrap:before {
+ position: absolute;
+}
+.splash-page .splash-wrap {
+ position: relative;
+ z-index: 6;
+ display: table;
+ width: 100%;
+ height: 100%;
+ min-height: 100vh;
+ background: url(../images/storypage.jpg) no-repeat;
+ background-attachment: fixed !important;
+ background-size: cover;
+ box-sizing: border-box;
+}
+.splash-page .nav-wrap {
+ display: table-header-group;
+}
+.splash-page .main-wrap {
+ display: table-cell;
+ vertical-align: middle;
+}
+.splash-page #content-section {
+ overflow-y: visible;
+ padding: 3em 4em;
+ margin: 40px auto;
+ width: 750px;
+ max-height: 1200px;
+ background: rgba(255, 255, 255, 0.85);
+ box-sizing: border-box;
+}
+.splash-page #content-section h2 {
+ text-align: center !important;
+ text-transform: uppercase;
+ font-family: 'Quicksand';
+ font-size: 3.5em;
+ font-weight: 300;
+ line-height: normal;
+}
+.splash-page #content-section p {
+ color: #3b3b3b;
+ text-align: center !important;
+}
+.splash-page #footer-wrap {
+ display: none;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+	
+	.splash-page #content-section {
+		width: 400px;
+	}
+}

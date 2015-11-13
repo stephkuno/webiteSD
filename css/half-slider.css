@@ -8,23 +8,29 @@ html,
 body {
     height: 100%;
 }
+.container-1 {
+	background-color: #0ea2da;
+	padding-right: 50px;
+    padding-left: 425px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
 
 .carousel {
-    height: 40%;
+    height: 60%;
 }
 
-.item,
-.active,
-.carousel-inner {
-    height: 100%;
+.carousel-inner 
+.item active {
+    height: 60%;
 }
 
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
-    width: 100%;
+    width: auto;
     height: 100%;
     background-position: center;
     -webkit-background-size: cover;
@@ -41,49 +47,87 @@ footer {
   color: #fff;
   position:absolute;
   z-index:12;
-  top:30%;
+  top:43%;
   left:0;
   width:100%;
   text-align:center;
-  font-family: 'Quicksand';
-  font-weight: 700;
-  font-size: 62px;
+  font-family: 'Sniglet';
+  line-height: 1em;
+  font-weight: 400;
+  font-size: 80px;
 }
 
 .overlay h1 {
 	color: #fff;
 }
 
-.cover{
-	background-color: rgba(0,0,0,0.2);
+.overlay1 { 
+  color: #fff;
+  position:absolute;
+  z-index:12;
+  top:35%;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-family: 'Sniglet';
+  line-height: 1em;
+  font-weight: 400;
+  font-size: 80px;
+}
+
+.break {
+	margin-bottom: 60px;
+}
+
+.breakfoot {
+	display: none;
 }
 
 /* Carousel base class */
-.carousel {
-  margin-bottom: 60px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 1;
+
+
+
+@media (max-width: 767px) {
+  .overlay1 { 
+  color: #fff;
+  position:absolute;
+  z-index:12;
+  top:23%;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-family: 'Sniglet';
+  line-height: 1em;
+  font-weight: 400;
+  font-size: 40px;
 }
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 400px;
-  background-color:#555;
+.overlay { 
+  color: #fff;
+  position:absolute;
+  z-index:12;
+  top:28%;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-family: 'Sniglet';
+  line-height: 1em;
+  font-weight: 400;
+  font-size: 40px;
 }
-.carousel img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 400px;
+.container-1 {
+	background-color: #0ea2da;
+	padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-@media (min-width: 768px) {
-	/* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
+.break {
+	margin-top: 100px;
+}
+
+.breakfoot {
+	display:block;
+}
 }
