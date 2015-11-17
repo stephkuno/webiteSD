@@ -130,4 +130,7 @@ footer {
 .breakfoot {
 	display:block;
 }
+
+.pull-left > img{
+	width: 60%;
 }
