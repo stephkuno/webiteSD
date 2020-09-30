@@ -2,7 +2,7 @@
 
 [Half Slider](http://startbootstrap.com/template-overviews/half-slider/) is an HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features a full width, half page image slider header with captions.
 
-## Getting Started
+## How to start
 
 To use this template, choose one of the following options to get started:
 * Download the latest release on Start Bootstrap
